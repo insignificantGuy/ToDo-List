@@ -1,0 +1,49 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+#input,#list{
+	height: 50px;	
+	padding: 20px;
+	margin-left:30%;
+}
+
+input{
+	width: 400px;
+	height: 25px;
+	border:1px black dashed;
+}
+
+#addButton{
+	height: 25px;
+	width: 80px;
+	border:none;
+	background: #473EFA;
+	color: white;
+	border-radius: 10%;
+}
+
+span{
+	display: block;
+}
+
+li{
+	width: 480px;
+}
+
+li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+#task{
+	height: 30px;	
+	width: 100%;
+	margin-left: 30%;
+	display: flex;
+}
+
+.close{
+	float: right;
+	display: block;
+}
